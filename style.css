@@ -109,27 +109,28 @@ header ul li a{
 .content .imgBox img{
     max-width: 300px;
 }
-/*
+
 .thumb{
-    position:none;
-    left: 0%;
-    transform: translateX(-0%);
-    bottom:0px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:20px;
     display:flex;
 }
 
 .thumb li{
     list-style:none;
     display: inline-block;
-    margin: 0 0px;
+    margin: 10 10px;
     cursor: pointer;
-    transition:0s;
+    transition:0.5s;
+    
 }
 
 .thumb li:hover{
-    transform: translateY(-0px);
+    transform: translateY(-10px);
 }
-*/
+
 .thumb li img{
     max-width: 40px;
 }
